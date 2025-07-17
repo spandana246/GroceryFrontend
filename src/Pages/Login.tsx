@@ -14,7 +14,7 @@ export default function Login() {
         password,
       });
       localStorage.setItem('username', username);
-      navigate('/');
+      navigate('/home');
     } catch (error) {
       alert('Login failed. Please check your credentials.');
     }
